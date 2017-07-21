@@ -1,5 +1,5 @@
 public class hanoi {
-
+// recursively
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			moves(20,'a','c','b');
