@@ -15,7 +15,7 @@ public class hanoi {
 			else{
 				
 			moves(disk-1,start,spare,last);
-			System.out.println("move "+ start+ " to " + last);
+			System.out.println("move "+ start+ "  to " + last);
 			moves(disk-1,spare,last,start);
 	 }
 
